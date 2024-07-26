@@ -1,14 +1,17 @@
 <template>
+  <NavBar/>
   <Tetris/>
 </template>
 
 <script>
 import Tetris from './components/Tetris.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
-    Tetris
+    Tetris,
+    NavBar
   }
 }
 </script>
